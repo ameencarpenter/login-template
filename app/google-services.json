@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "131810820705",
+    "project_id": "carpenter-development",
+    "storage_bucket": "carpenter-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131810820705:android:0a77524a0f5b9da08d6020",
+        "android_client_info": {
+          "package_name": "com.carpenter.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131810820705-pu0g1se7fuqh4ekgho88e86lfnq3cool.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carpenter.login",
+            "certificate_hash": "d5078d9cd11c82f0a75213dd6f75793cf892de2a"
+          }
+        },
+        {
+          "client_id": "131810820705-361gms6ip1irs83esv49dr0dcg9hpe53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_V1gOQ0YcAJvIRe2syPnc1BzJMauW_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131810820705-361gms6ip1irs83esv49dr0dcg9hpe53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

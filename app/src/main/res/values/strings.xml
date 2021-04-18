@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Login Template</string>
+    <string name="app_name_placeholder">App Name</string>
+    <string name="branding_sentence">Branding sentence describes your company or product</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_phone">Continue with Phone</string>
+    <string name="sign_up_with_email">Sign Up with Email</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="have_account_already_sign_in_instead">Have Account already? Sign in instead.</string>
+    <string name="do_not_have_account_sign_up_instead">Don\'t have Account? Sign up instead.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_should_be_at_least_6_characters">Password should be at least 6 characters!</string>
+    <string name="not_a_valid_email">Not a valid Email!</string>
+    <string name="passwords_do_not_match">Passwords don\'t match!</string>
+    <string name="recover_your_account">Recover your Account</string>
+    <string name="send">Send</string>
+    <string name="go_back">Go back</string>
+    <string name="login_with_phone">Login with Phone</string>
+    <string name="verify_your_number">Verify your Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="did_not_receive_code">Didn\'t receive Code? Send again.</string>
+    <string name="send_code">Send Code</string>
+    <string name="verify">Verify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="not_a_valid_number">Not a valid Number</string>
+    <string name="you_are_offline">You are offline!</string>
+    <string name="code_sent_to_number">Code sent to <xliff:g example="+201156004995">%s</xliff:g></string>
+    <string name="welcome">Welcome</string>
+    <string name="description">This is a Login Template created by @ameencarpenter</string>
+    <string name="components_used_label">Main Components used:</string>
+    <string name="components_used">\u2022 Navigation (Standard)\n\u2022 Jetpack compose\n\u2022 Firebase</string>
+    <string name="supported_login_methods_label">Supported Login Methods:</string>
+    <string name="supported_login_methods">\u2022 Email\n\u2022 Google\n\u2022 Phone Number</string>
+    <string name="quote">Simplicity is the ultimate sophistication</string>
+    <string name="log_out">Log out</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+
+    //configurations
+    <string name="google_cloud_server_client_id" translatable="false">"131810820705-361gms6ip1irs83esv49dr0dcg9hpe53.apps.googleusercontent.com"</string>
+</resources>

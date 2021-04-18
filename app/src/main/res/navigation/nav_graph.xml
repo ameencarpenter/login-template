@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.carpenter.login.homeScreen.HomeFragment"
+        android:label="fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_welcomeFragment"
+            app:destination="@id/loginGraph"
+            app:enterAnim="@anim/from_left_to_center"
+            app:exitAnim="@anim/from_center_to_right"
+            app:popEnterAnim="@anim/from_right_to_center"
+            app:popExitAnim="@anim/from_center_to_left"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <navigation android:id="@+id/loginGraph"
+        app:startDestination="@id/welcomeFragment">
+        <fragment
+            android:id="@+id/welcomeFragment"
+            android:name="com.carpenter.login.welcomeScreen.WelcomeFragment"
+            android:label="WelcomeFragment">
+            <action
+                android:id="@+id/action_welcomeFragment_to_emailLoginFragment"
+                app:destination="@id/emailLoginFragment"
+                app:enterAnim="@anim/from_right_to_center"
+                app:exitAnim="@anim/from_center_to_left"
+                app:popEnterAnim="@anim/from_left_to_center"
+                app:popExitAnim="@anim/from_center_to_right" />
+            <action
+                android:id="@+id/action_welcomeFragment_to_phoneLoginFragment"
+                app:destination="@id/phoneLoginFragment"
+                app:enterAnim="@anim/from_right_to_center"
+                app:exitAnim="@anim/from_center_to_left"
+                app:popEnterAnim="@anim/from_left_to_center"
+                app:popExitAnim="@anim/from_center_to_right" />
+        </fragment>
+        <fragment
+            android:id="@+id/emailLoginFragment"
+            android:name="com.carpenter.login.emailLoginScreen.EmailLoginFragment"
+            android:label="fragment_email_login" />
+        <fragment
+            android:id="@+id/phoneLoginFragment"
+            android:name="com.carpenter.login.phoneLoginScreen.PhoneLoginFragment"
+            android:label="fragment_phone_login" />
+        <action
+            android:id="@+id/action_global_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/from_right_to_center"
+            app:exitAnim="@anim/from_center_to_left"
+            app:popEnterAnim="@anim/from_left_to_center"
+            app:popExitAnim="@anim/from_center_to_right"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </navigation>
+</navigation>
